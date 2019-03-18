@@ -9,7 +9,7 @@ LABEL `
 	contribute="https://github.com/become-evolved/asp-docker/" `
 	url="https://www.evolved.com.br" `
 	twitter="@nagaozen" `
-	usage="docker run -it -p 8080:80 -v ${PWD}\content\:C:\inetpub\wwwroot\ --rm --entrypoint powershell nagaozen/asp/windows:1809"
+	usage="docker run -it -p 8080:80 -v ${PWD}\content\:C:\inetpub\wwwroot\ --rm --entrypoint powershell nagaozen/asp-docker:1809"
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
